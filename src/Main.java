@@ -37,7 +37,7 @@ public class Main {
             }
             if(!correctWord){
                 attempts++;
-                System.out.println("Letter Incorrect you have " + (maximumAttempts - attempts) + "left");
+                System.out.println("Letter Incorrect you have " + (maximumAttempts - attempts) + " left");
             }
             if(String.valueOf(charGuessed).equals(secretWord)){
                 isGuessedWord = true;
